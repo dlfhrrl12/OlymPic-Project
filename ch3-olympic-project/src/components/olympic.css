@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #333;
+  }
+  .title{
+    color: #003580;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* input-group MedalForm*/
+  .input-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 8px;
+    align-items: flex-end;
+  }
+  
+  .input-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-field label{
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  
+  input[type="text"],
+  input[type="number"]{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .button-group{
+    flex-shrink: 0;
+    display: flex;
+    gap: 10px;
+    align-items: end;
+  }
+  
+  .button-group button{
+    padding: 10px 20px;
+    background-color: #fc0;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    align-self: center;
+  }
+  /* table MedalList */
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #e6e6fa;
+    border-radius: 8px;
+  }
+  
+  thead{
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+  }
+  
+  tbody{
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+  }
+  
+  tr{
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+  }
+  
+  th{
+    background-color: #003580;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  td{
+    vertical-align: middle;
+    color: #333;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  td button{
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  
+  }
